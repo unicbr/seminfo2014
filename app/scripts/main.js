@@ -31,7 +31,7 @@ $(function() {
         {
             events: function(start, end, timezone, callback) {
               $.ajax({
-                url: '../data/palestras.json',
+                url: './data/palestras.json',
                 dataType: 'json',
                 success: function(doc) {
                     callback(doc);
@@ -44,7 +44,7 @@ $(function() {
         {
           events: function(start, end, timezone, callback) {
             $.ajax({
-              url: '../data/minicursos.json',
+              url: './data/minicursos.json',
               dataType: 'json',
               success: function(doc) {
                   callback(doc);
