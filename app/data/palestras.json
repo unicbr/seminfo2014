@@ -1,14 +1,52 @@
-{
-  events: [
-      {
-          title: 'Event1',
-          start: '2014-09-19'
-      },
-      {
-          title: 'Event2',
-          start: '2014-09-19'
-      }
-  ],
-  color: 'yellow',
-  textColor: 'black'
-}
+[
+  {
+    "title": "Modelo de Gestão de Predição de Falhas no Gerenciamento da Infraestrutura de Datacenter",
+    "start": "2014-11-03T19:15:00-04:00",
+    "end": "2014-11-03T20:15:00-04:00"
+  },
+  {
+    "title": "RSC - Rede Social Corporativa",
+    "start": "2014-11-03T20:45:00-04:00",
+    "end": "2014-11-03T21:45:00-04:00"
+  },
+  {
+    "title": "Panorama de pesquisas em TI na grande Cuiabá",
+    "start": "2014-11-04T19:15:00-04:00",
+    "end": "2014-11-04T20:15:00-04:00"
+  },
+  {
+    "title": "Oracle Exadata - Database Machine",
+    "start": "2014-11-04T20:45:00-04:00",
+    "end": "2014-11-04T21:45:00-04:00"
+  },
+  {
+    "title": "Implementação de um CERT",
+    "start": "2014-11-05T19:15:00-04:00",
+    "end": "2014-11-05T20:15:00-04:00"
+  },
+  {
+    "title": "TI, Négócio - O mundo \"Open Source\"",
+    "start": "2014-11-05T20:45:00-04:00",
+    "end": "2014-11-05T21:45:00-04:00"
+  },
+  {
+    "title": "Projeto VLT - Cisco Networks",
+    "start": "2014-11-06T19:15:00-04:00",
+    "end": "2014-11-06T20:15:00-04:00"
+  },
+  {
+    "title": "OWASP – Top 10 2013/2014",
+    "start": "2014-11-06T20:45:00-04:00",
+    "end": "2014-11-06T21:45:00-04:00"
+  },
+  {
+    "title": "Soluções de Análise de Dados, Business Intelligence e Business Discovery",
+    "start": "2014-11-07T19:15:00-04:00",
+    "end": "2014-11-07T20:15:00-04:00"
+  },
+  {
+    "title": "Me responsabilizando pela minha carreira",
+    "start": "2014-11-07T20:45:00-04:00",
+    "end": "2014-11-07T21:45:00-04:00"
+  }
+]

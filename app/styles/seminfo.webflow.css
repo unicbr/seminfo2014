@@ -94,11 +94,15 @@ section {
   padding-top: 15px;
   border-top: 1px solid #eee;
 }
+.fc-view thead {
+  display:none;
+}
+
 @media (max-width: 991px) {
 }
 @media (max-width: 767px) {
   .palestrante {
-    text-align: center;    
+    text-align: center;
   }
 
   #patrocinadores .w-col, #apoiadores .w-col {
