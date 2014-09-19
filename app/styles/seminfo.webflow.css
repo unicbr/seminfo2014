@@ -71,6 +71,7 @@ section {
   border: none;
   background: transparent;
   padding: 0px;
+  max-width:100%;
 }
 .jumbotron {
   display: block;
@@ -96,6 +97,18 @@ section {
 @media (max-width: 991px) {
 }
 @media (max-width: 767px) {
+  .palestrante {
+    text-align: center;    
+  }
+
+  #patrocinadores .w-col, #apoiadores .w-col {
+    width: 33%;
+    margin-bottom: 15px;
+  }
 }
 @media (max-width: 479px) {
+  #patrocinadores .w-col, #apoiadores .w-col {
+    width: 50%;
+    margin-bottom: 15px;
+  }
 }

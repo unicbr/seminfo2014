@@ -1,0 +1,16 @@
+{
+  events: [
+      {
+          title: 'Minicursos',
+          start  : '2014-09-19T12:30:00',
+          end  : '2014-09-19T14:30:00',
+      },
+      {
+          title: 'Palestras',
+          start  : '2014-09-19T12:30:00',
+          end  : '2014-09-19T14:30:00',
+      }
+  ],
+  color: 'green',
+  textColor: 'black'
+}

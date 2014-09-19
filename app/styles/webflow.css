@@ -1479,13 +1479,15 @@ textarea.w-select {
   top: 100%;
   left: 0;
   right: 0;
-  background: #999;
+  background: #00aeef;
   text-align: center;
   overflow: visible;
   min-width: 200px;
 }
 .w--nav-link-open {
   display: block;
+  border-bottom: 1px solid #66BBCC;
+  color: white;
   position: relative;
 }
 .w-nav-overlay {
@@ -1534,7 +1536,7 @@ textarea.w-select {
   user-select: none;
 }
 .w-nav-button.w--open {
-  background-color: #999;
+  background-color: #00aeef;
   color: white;
 }
 .w-nav[data-collapse="all"] .w-nav-menu {

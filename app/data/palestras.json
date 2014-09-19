@@ -1,0 +1,14 @@
+{
+  events: [
+      {
+          title: 'Event1',
+          start: '2014-09-19'
+      },
+      {
+          title: 'Event2',
+          start: '2014-09-19'
+      }
+  ],
+  color: 'yellow',
+  textColor: 'black'
+}
