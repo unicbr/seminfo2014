@@ -9,6 +9,7 @@
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <!-- build:css(.) styles/vendor.css -->
     <!-- bower:css -->
+    <link rel="stylesheet" href="bower_components/fullcalendar/dist/fullcalendar.css" />
     <!-- endbower -->
     <!-- endbuild -->
     <!-- build:css(.tmp) styles/main.css -->
@@ -57,7 +58,7 @@
   <main class="w-container">
     <section class="social-network">
       <div class="w-widget w-widget-facebook">
-        <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fpages%2FSemana-da-Inform%C3%A1tica-UNIC%2F294111937462879&amp;layout=standard&amp;locale=pt_BR&amp;action=like&amp;show_faces=false&amp;share=true" scrolling="no" frameborder="0" allowtransparency="true" style="border: none; overflow: hidden; width: 500px; height: 20px;"></iframe>
+        <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fpages%2FSemana-da-Inform%C3%A1tica-UNIC%2F294111937462879&amp;layout=standard&amp;locale=pt_BR&amp;action=like&amp;show_faces=false&amp;share=true" scrolling="no" frameborder="0" allowtransparency="true" style="border: none; overflow: hidden; width: 100%; height: 25px;"></iframe>
       </div>
     </section>
     <section id="sobre">
@@ -151,30 +152,24 @@
       <h2>Agenda</h2>
       <div class="w-tabs" data-duration-in="300" data-duration-out="100">
         <div class="w-tab-menu">
-          <a class="w-tab-link w--current w-inline-block" data-w-tab="03">
+          <a class="w-tab-link w--current w-inline-block" data-day="03">
             <div>Dia 03/11</div>
           </a>
-          <a class="w-tab-link w-inline-block" data-w-tab="04">
+          <a class="w-tab-link w-inline-block" data-day="04">
             <div>Dia 04/11</div>
           </a>
-          <a class="w-tab-link w-inline-block" data-w-tab="05">
+          <a class="w-tab-link w-inline-block" data-day="05">
             <div>Dia 05/11</div>
           </a>
-          <a class="w-tab-link w-inline-block" data-w-tab="06">
+          <a class="w-tab-link w-inline-block" data-day="06">
             <div>Dia 06/11</div>
           </a>
-          <a class="w-tab-link w-inline-block" data-w-tab="07">
+          <a class="w-tab-link w-inline-block" data-day="07">
             <div>Dia 07/11</div>
           </a>
         </div>
         <div class="w-tab-content">
-          <div class="w-tab-pane w--tab-active" data-w-tab="03">
-
-          </div>
-          <div class="w-tab-pane" data-w-tab="04"></div>
-          <div class="w-tab-pane" data-w-tab="05"></div>
-          <div class="w-tab-pane" data-w-tab="06"></div>
-          <div class="w-tab-pane" data-w-tab="07"></div>
+          <div class="w-tab-pane w--tab-active"></div>
         </div>
       </div>
     </section>
@@ -217,14 +212,15 @@
         </div>
       </div>
     </section>
-    <footer></footer>
+    <footer>
+    </footer>
   </main>
-
-    <a href="https://github.com/you"><img style="position: absolute; top: 0; left: 0; border: 0; z-index: 1000;" src="https://camo.githubusercontent.com/567c3a48d796e2fc06ea80409cc9dd82bf714434/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_left_darkblue_121621.png"></a>
 
     <!-- build:js(.) scripts/vendor.js -->
     <!-- bower:js -->
     <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/moment/moment.js"></script>
+    <script src="bower_components/fullcalendar/dist/fullcalendar.js"></script>
     <!-- endbower -->
     <script type="text/javascript" src="scripts/webflow.js"></script>
     <!-- endbuild -->
